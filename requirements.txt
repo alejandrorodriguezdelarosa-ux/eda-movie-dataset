@@ -1,0 +1,62 @@
+"""
+Dependencias necesarias para ejecutar el proyecto de Análisis Exploratorio de Datos (EDA)
+
+Este archivo recoge todas las librerías utilizadas en el proceso de:
+- Carga y limpieza del dataset
+- Estandarización y transformación de variables
+- Generación de visualizaciones básicas, intermedias y avanzadas
+- Análisis orientado al objetivo del proyecto
+
+La mayoría son librerías estándar del ecosistema científico de Python.
+
+Requisitos principales
+----------------------
+
+pandas
+    Utilizada para la manipulación del dataset, operaciones de limpieza y agrupaciones.
+
+numpy
+    Apoyo en operaciones numéricas, manejo de NaN y transformaciones logarítmicas.
+
+matplotlib
+    Base de las visualizaciones. Se utiliza para configurar figuras y mostrar gráficos.
+
+seaborn
+    Librería principal para los gráficos del EDA, incluidas barras, violines, mapas de calor, histogramas, etc.
+
+scipy  (opcional)
+    Puede utilizarse para algunos cálculos estadísticos, aunque no es imprescindible en todo el proyecto.
+
+jupyter
+    Necesaria para ejecutar el notebook visualizaciones.ipynb si se trabaja desde un entorno Jupyter.
+
+importlib
+    Utilizada para recargar módulos locales durante el desarrollo.
+
+sys / os
+    Se usan para gestionar rutas internas y acceder al módulo /src.
+
+Versiones recomendadas
+----------------------
+Estas versiones funcionan sin problemas con el proyecto:
+
+pandas >= 2.0.0  
+numpy >= 1.24  
+matplotlib >= 3.7  
+seaborn >= 0.13  
+scipy >= 1.10  (opcional)  
+jupyter >= 1.0  
+
+Instrucciones de instalación
+----------------------------
+Para instalar todas las dependencias recomendadas:
+
+    pip install pandas numpy matplotlib seaborn scipy jupyter
+
+En caso de trabajar con un entorno virtual, activarlo primero y ejecutar el mismo comando.
+
+Notas adicionales
+-----------------
+El proyecto no depende de frameworks externos ni de librerías avanzadas de machine learning.
+Todo el análisis se basa en manipulación estructurada de datos y visualización.
+"""
